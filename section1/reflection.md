@@ -22,7 +22,7 @@ p "#{zebra}"
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
 Interpolation is placing a variable into another variable.
-Example interpolation using the pervious variable:
+Example interpolation using the previous variable:
 favorite_animal = "The #{animal) is one of Alex's favorite animals in the zoo."
 
 1. What method is used to get input from a user?
