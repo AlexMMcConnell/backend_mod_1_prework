@@ -73,3 +73,11 @@ elsif cups_of_flour >= 2
 else
   print "I cannot make pizza"
 end
+
+if cups_of_flour >= 2 && has_sauce == true
+  print "I can make pizza"
+else
+  print "I cannot make pizza"
+end
+
+## If no conditions are met for a set of "if" statements, the code defaults to the final "else" output.
