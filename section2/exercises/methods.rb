@@ -47,7 +47,6 @@ favorite_music('Brakence', 'ABSRDST')
 
 
 # Naming is notoriously hard in programming. It is a skill to name a variable or function concisely enough that it is reasonable to type, but descriptive enough that others can infer the meaning.
-
 # Look at the code you wrote for the previous YOU DO🎈 - what did you name the function, and why?
 
 ## I named the function based off of addition "math_fun" because math is fun in coding, especially when you have the freedom that these exercises do.
