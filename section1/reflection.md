@@ -5,7 +5,10 @@ The biggest things that resonated with me from this article was to take breaks -
 
 1. How would you print the string `"Hello World!"` to the terminal?
 Through Ruby, I would type the following command:
+
+```rb
   puts "Hello, World!"
+```
 
 1. What character is used to indicate comments in a ruby file?
 The pound sign.
@@ -15,15 +18,25 @@ An integer is a numeric value without any decimals, while a float is a numeric v
 Integer example: 5 | Float example: 5.00
 
 1. In the space below, create a variable `animal` that holds the string `"zebra"`
+
+```rb
 animal = "zebra"
+```
 
 1. How would you print the string `"zebra"` using the variable that you created above?
+
+```rb
 p "#{zebra}"
+```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
+
 Interpolation is placing a variable into another variable.
 Example interpolation using the previous variable:
-favorite_animal = "The #{animal) is one of Alex's favorite animals in the zoo."
+
+```rb
+favorite_animal = "The #{animal} is one of Alex's favorite animals in the zoo."
+```
 
 1. What method is used to get input from a user?
 You can acquire user input using 'gets.chomp' which requires user input before further output can occur.
