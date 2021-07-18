@@ -24,7 +24,7 @@ print animals[0]
 # YOU DO: Write code below that will print the number of elements in array of
 # animals from above.
 puts ""
-puts "#{animals.count} animals"
+animals.count
 
 # YOU DO: Write code that will reassign the last item in the animals
 # array to "Gorilla"
@@ -64,9 +64,11 @@ puts "Goodbye broccoli: #{foods}"
   # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
 
-foods[4] = "carrots"
-foods[5] = "tacos"
-foods[6] = "pancakes"
+foods.insert(4, "carrots", "tacos", "pancakes")
+
+# foods[4] = "carrots"
+# foods[5] = "tacos"
+# foods[6] = "pancakes"
 
 puts "Adding some extra food: #{foods}"
 
