@@ -1,5 +1,5 @@
 # In the dog class below, write a `play` method that makes
-# the dog hungry. Call that method below the class, and 
+# the dog hungry. Call that method below the class, and
 # print the dog's hunger status.
 
 class Dog
@@ -19,6 +19,20 @@ class Dog
   def eat
     @hungry = false
   end
+
+  def play
+    puts "#{@name} is having a ton of fun playing!"
+    @hungry = true
+  end
+
+  def hunger_check
+    puts "Is #{@name} hungry?"
+    if hungry == true
+      puts "Yes!"
+    else
+      puts "Not right now."
+    end
+  end
 end
 
 fido = Dog.new("Bernese", "Fido", 4)
@@ -28,3 +42,7 @@ p fido.age
 p fido.hungry
 fido.eat
 p fido.hungry
+fido.play
+fido.hunger_check
+fido.eat
+fido.hunger_check
