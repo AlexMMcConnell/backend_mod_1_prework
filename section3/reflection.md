@@ -17,17 +17,20 @@
 Hashes store individual *keys* that access *values* into a variable while arrays store multiple values without any keys attached. As such, hashes vary from arrays in that you can assign 'keys' to 'values' in hashes to better contextualize them, while you can't do that in arrays.
 
 4. In the space below, create a Hash stored to a variable named `pet_store`.  This hash should hold an inventory of items and the number of that item that you might find at a pet store.
-
+```rb
 pet_store = {
   "dog_toys" => 78,
   "cat_toys" => 32,
   "dog_food" => 94,
   "cat_food" => 52
 }
+```
 
 5. Given the following `states = {"CO" => "Colorado", "IA" => "Iowa", "OK" => "Oklahoma"}`, how would you access the value `"Iowa"`?
 
+```rb
 puts "the value 'Iowa' is accessed like so: #{states["IA"]}"
+```
 
 6. With the same hash above, how would we get all the keys?  How about all the values?
 
