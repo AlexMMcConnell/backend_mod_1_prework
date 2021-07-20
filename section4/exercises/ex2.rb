@@ -39,8 +39,8 @@ class MyCar
         puts "Sounds good. We'll keep it #{@color}."
       else
         puts "Invalid input."
+      end
   end
-
 end
 
 tesla = MyCar.new(2020, "red", "tesla")
