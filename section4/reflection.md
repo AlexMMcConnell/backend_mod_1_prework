@@ -26,6 +26,7 @@ Behaviors of classes define what objects defined by the class can do; a Car clas
 
 ```rb
 class Dog
+  attr_reader name: hair:
   def initialize(name, hair, tail)
     @name = name
     @hair = hair
