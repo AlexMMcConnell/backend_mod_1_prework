@@ -16,7 +16,7 @@ A Class is a sort of dictionary that defines what sort of descriptors objects be
 
 1. What is an attribute of a Class?
 
-Attributes of classes are descriptors of sorts; a Taco class may contain attributes such as Meat, Cheese, and Veggies.
+Attributes of classes allow you to use pre-set methods that already exist within the base of Ruby.
 
 1. What is behavior of a Class?
 
