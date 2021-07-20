@@ -61,10 +61,10 @@ foods.delete_at(4)
 puts "Goodbye broccoli: #{foods}"
 
 # YOU DO: Write code to add 3 new foods to the array.
-  # There are several ways to do this - choose whichever you'd like!
+# There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
 
-foods.insert(4, "carrots", "tacos", "pancakes")
+foods.insert(8, "carrots", "tacos", "pancakes")
 
 # foods[4] = "carrots"
 # foods[5] = "tacos"
