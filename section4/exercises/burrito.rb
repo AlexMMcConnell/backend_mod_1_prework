@@ -13,7 +13,7 @@ class Burrito
     @toppings = toppings
   end
   def add_topping(add)
-    toppings.append(add)
+    toppings.append(add) # adds to end of array
   end
   def remove_topping(remove)
     toppings.delete(remove)
