@@ -11,6 +11,7 @@ Through Ruby, I would type the following command:
 ```
 
 1. What character is used to indicate comments in a ruby file?
+
 The pound sign.
 
 1. Explain the difference between an integer and a float?
@@ -26,7 +27,7 @@ animal = "zebra"
 1. How would you print the string `"zebra"` using the variable that you created above?
 
 ```rb
-p "#{zebra}"
+p animal
 ```
 
 1. What is interpolation? Use interpolation to print a sentence using the variable `animal`.
@@ -39,6 +40,7 @@ favorite_animal = "The #{animal} is one of Alex's favorite animals in the zoo."
 ```
 
 1. What method is used to get input from a user?
+
 You can acquire user input using 'gets.chomp' which requires user input before further output can occur.
 
 1. Name and describe two common string methods:
