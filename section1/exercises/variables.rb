@@ -22,15 +22,16 @@ p no_return
 # prints the result:
 students = 22
 p students
-extra_students = 22 + 2
-p extra_students
+students = students + 2
+p students
+
 
 # Write code that subracts 2 from the `students` variable and
 # prints the result:
 # YOUR CODE HERE
 p students
-less_students = 22 - 2
-p less_students
+students = students - 2
+p students
 
 # YOU DO:
 # Declare three variables, named `first_name`, `is_hungry` and `number_of_pets`.
@@ -58,7 +59,7 @@ puts "#{first_name} is #{is_hungry} hungry and has #{number_of_pets} pets."
 # print all three variables to the terminal.
 first_name = 'Bob'
 is_hungry = 'very'
-number_of_pets = 'no'
+number_of_pets = 0
 
 puts "#{first_name} is #{is_hungry} hungry and has #{number_of_pets} pets."
 
@@ -75,3 +76,5 @@ puts "There are a total of #{healthy_snacks + junk_food_snacks} snacks in the ho
 
 # Did you run this file in your terminal to make sure everything printed out to the terminal
   # as you would expect?
+
+  ## Yes - I've written everything properly and tested everything in the console.
