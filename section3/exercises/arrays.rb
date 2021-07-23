@@ -64,11 +64,7 @@ puts "Goodbye broccoli: #{foods}"
 # There are several ways to do this - choose whichever you'd like!
 # Then, print the changed array to verify the new items have been added
 
-foods.insert(8, "carrots", "tacos", "pancakes")
-
-# foods[4] = "carrots"
-# foods[5] = "tacos"
-# foods[6] = "pancakes"
+foods.insert(4, "carrots", "tacos", "pancakes")
 
 puts "Adding some extra food: #{foods}"
 
@@ -96,6 +92,6 @@ posts = ["image at beach", "holiday party", "adorable puppy", "video of cute bab
 # may be storing data? Come up with 3 examples - they could be from different web applications or
 # all from the same one.
 
-# 1: Reddit
-# 2: Twitter
-# 3: YouTube
+## 1: Reddit
+## 2: Twitter
+## 3: YouTube

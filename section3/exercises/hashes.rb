@@ -4,11 +4,18 @@
 # `ruby section3/exercises/hashes.rb`
 
 # Example: Write code that prints a hash holding grocery store inventory:
-foods = {apples: 23, grapes: 507, eggs: 48}
+foods = {
+  apples: 23,
+  grapes: 507,
+  eggs: 48}
 p foods
 
 # Write code that prints a hash holding zoo animal inventory:
-zoo = {"animal1" => "zebra", "animal2" => "tiger", "animal3" => "giraffe"}
+zoo = {
+  "animal1" => "zebra",
+  "animal2" => "tiger",
+  "animal3" => "giraffe"
+}
 p zoo
 
 # Write code that prints all of the 'keys' of the zoo variable
@@ -24,7 +31,7 @@ p zoo.values
 # Write code that prints the value of the first animal of the zoo variable
 # you created above:
 # YOUR CODE HERE
-p "#{zoo["animal1"]}"
+p "#{zoo[animal1]}"
 
 # Write code that adds an animal to the zoo hash.
 # Then, print the updated hash:
