@@ -68,14 +68,6 @@ has_sauce = false
 
 if cups_of_flour >= 2 && has_sauce == true
   print "I can make pizza"
-elsif cups_of_flour >= 2
-  print "I cannot make pizza"
-else
-  print "I cannot make pizza"
-end
-
-if cups_of_flour >= 2 && has_sauce == true
-  print "I can make pizza"
 else
   print "I cannot make pizza"
 end
